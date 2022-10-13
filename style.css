@@ -1143,6 +1143,13 @@ header {
 
 header .navbar {
 	display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+header #nav-toggle{
+    position: relative;
+    left: 6%;
 }
 
 .page-contact ul {
